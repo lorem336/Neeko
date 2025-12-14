@@ -5,7 +5,8 @@
  ---
  ### Neeko is a free League of Legends skin modding tool, developed based on CSLol-Manager, allowing players to change and install LoL skins quickly, easily, and safely.
 
-|Download|[Win64](https://github.com/lorem336/Neeko/releases/download/v1.0.0-20251215/Neeko-win64.zip)|[Arm64](https://github.com/lorem336/Neeko/releases/download/v1.0.0-20251215/Neeko-arm64.zip)|
+
+|![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Lorem336/Neeko/total?style=for-the-badge&color=lightgreen)|[Win64](https://github.com/lorem336/Neeko/releases/download/v1.0.0-20251215/Neeko-win64.zip)|[Arm64](https://github.com/lorem336/Neeko/releases/download/v1.0.0-20251215/Neeko-arm64.zip)|
 |-|-|-|
 
 <a href="https://ko-fi.com/lorem336" target="_blank">
