@@ -1,1 +1,6 @@
 v1.1.2-20251215
+data
+- Added missing skins
+- Check & auto update
+- Optimized UI/UX
+- Fix some bugs
