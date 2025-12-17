@@ -4,11 +4,11 @@
  
 ![C#](https://img.shields.io/badge/C%23-512BD4?logo=csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Avalonia](https://img.shields.io/badge/Avalonia%20UI-7A3FF2?logo=avalonia&logoColor=white)
+![Avalonia](https://img.shields.io/badge/WPF-7A3FF2?logo=avalonia&logoColor=white)
 
  ---
  ### Neeko is a free League of Legends skin modding tool, developed based on [CSLol-Manager](https://github.com/LeagueToolkit/cslol-manager), allowing players to change and install LoL skins quickly, easily, and safely.
-|![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Lorem336/Neeko/total?style=for-the-badge&color=lightgreen)|[Win64](https://github.com/lorem336/Neeko/releases/download/v1.1.2-20251215/Neeko-win64.zip)|[Arm64](https://github.com/lorem336/Neeko/releases/download/v1.1.2-20251215/Neeko-arm64.zip)|
+|![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Lorem336/Neeko/total?style=for-the-badge&color=lightgreen)|[Win64](https://github.com/lorem336/Neeko/releases/download/v1.2.0-20251217/Neeko-win64.zip)|[Arm64](https://github.com/lorem336/Neeko/releases/download/v1.2.0-20251217/Neeko-arm64.zip)|
 |-|-|-|
 
 <a href="https://ko-fi.com/lorem336" target="_blank">
