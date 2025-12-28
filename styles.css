@@ -1,0 +1,144 @@
+:root {
+    --bg-color: #000000;
+    --accent-color: #ffffff;
+    --secondary-bg: #111111;
+    --border-color: #222222;
+    --muted-text: #888888;
+    --navbar-height: 80px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--accent-color);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.text-muted-custom {
+    color: var(--muted-text) !important;
+}
+
+.bg-secondary-custom {
+    background-color: var(--secondary-bg);
+}
+
+.border-custom {
+    border-color: var(--border-color) !important;
+}
+
+.grid-lines {
+    background-image: linear-gradient(to right, var(--border-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.section-viewport {
+    min-height: 100vh;
+    padding-top: var(--navbar-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+}
+
+#hero-stats {
+
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.hero-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.luxury-card {
+    background: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.luxury-card:hover {
+    border-color: var(--accent-color);
+}
+
+.glow-button {
+    transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.navbar-blur {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: var(--navbar-height);
+}
+
+.reveal {
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translate(0, 0) !important;
+    pointer-events: auto;
+}
+
+.reveal-left {
+    transform: translateX(-100px);
+}
+
+.reveal-right {
+    transform: translateX(100px);
+}
+
+.reveal-up {
+    transform: translateY(50px);
+}
+
+.reveal-zoom {
+    transform: scale(0.8);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+.tracking-widest {
+    letter-spacing: 0.2em;
+}
+
+.tracking-ultra {
+    letter-spacing: 0.4em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
